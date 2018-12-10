@@ -1,0 +1,410 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+    color: #fff;
+    background: #000;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+body {
+  font-family: "Avenir", serif;
+  font-size: 140%;
+}
+
+h1, h3 {
+  font-family: "Teko", "Trebuchet MS", sans-serif;
+  font-size: 400%;
+  text-align: center;
+}
+
+h3 {
+  font-size: 200%;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+#quizinfo {
+  font-size: 90%;
+  text-align: center;
+  margin-top: 0;
+}
+
+#asiamap {
+  display: grid;
+  padding: 0;
+  margin: 0;
+  height: 600px;
+  width: 100%;
+}
+
+.photos {
+  width: 100%;
+  height: 100%;
+}
+
+.info {
+  font-size: 80%;
+  position: absolute;
+  color: #fff;
+  font-weight: bold;
+  padding: 1rem;
+  margin: 0;
+}
+
+.credit {
+  font-size: 75%;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  margin: 0;
+}
+
+#kinfoone, #kinfotwo, #kinfothree {
+  position: absolute;
+  width: 30%;
+  top: 8rem;
+  left: 10rem;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#kenya {
+  position: relative;
+}
+
+#kcredit {
+  position: absolute;
+  left: 1rem;
+  bottom: 1rem;
+}
+
+#klearn {
+  position: absolute;
+  bottom: 19rem;
+  right: 4.5rem;
+  color: #fff;
+}
+
+#kone {
+  position: absolute;
+  bottom: 24rem;
+  right: 14rem;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 0.25rem 1rem 0.25rem 1rem;
+  margin: 0;
+}
+
+#ktwo {
+  position: absolute;
+  bottom: 24rem;
+  right: 10rem;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 0.25rem 1rem 0.25rem 1rem;
+  margin: 0;
+}
+
+#kthree {
+  position: absolute;
+  bottom: 24rem;
+  right: 6rem;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 0.25rem 1rem 0.25rem 1rem;
+  margin: 0;
+}
+
+#sinfoone, #sinfotwo, #sinfothree {
+  position: absolute;
+  width: 30%;
+  top: 11rem;
+  right: 7rem;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#spain {
+  position: relative;
+}
+
+#scredit {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+#slearn {
+  position: absolute;
+  bottom: 14rem;
+  left: 21rem;
+  color: #000;
+}
+
+#sone {
+  position: absolute;
+  bottom: 9rem;
+  left: 22rem;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 0.25rem 1rem 0.25rem 1rem;
+  margin: 0;
+}
+
+#stwo {
+  position: absolute;
+  bottom: 9rem;
+  left: 26rem;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 0.25rem 1rem 0.25rem 1rem;
+  margin: 0;
+}
+
+#sthree {
+  position: absolute;
+  bottom: 9rem;
+  left: 30rem;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 0.25rem 1rem 0.25rem 1rem;
+  margin: 0;
+}
+
+#jinfoone, #jinfotwo, #jinfothree {
+  position: absolute;
+  width: 30%;
+  bottom: 7rem;
+  right: 9rem;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#jinfothree {
+  bottom: 9rem;
+}
+
+#japan {
+  position: relative;
+}
+
+#jcredit {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+#jlearn {
+  position: absolute;
+  bottom: 9rem;
+  left: 24rem;
+  color: #fff;
+}
+
+#jone {
+  position: absolute;
+  bottom: 16rem;
+  left: 42rem;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 0 1rem 0 1rem;
+  margin: 0;
+}
+
+#jtwo {
+  position: absolute;
+  bottom: 11rem;
+  left: 42rem;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 0 1rem 0 1rem;
+  margin: 0;
+}
+
+#jthree {
+  position: absolute;
+  bottom: 6rem;
+  left: 42rem;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 0 1rem 0 1rem;
+  margin: 0;
+}
+
+#minfoone, #minfotwo {
+  position: absolute;
+  width: 30%;
+  bottom: 7rem;
+  left: 10rem;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#mexico {
+  position: relative;
+}
+
+#mcredit {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+}
+
+#mlearn {
+  position: absolute;
+  bottom: 15rem;
+  right: 8rem;
+  color: #fff;
+}
+
+#mone {
+  position: absolute;
+  bottom: 3rem;
+  right: 15rem;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 0 1rem 0 1rem;
+  margin: 0;
+}
+
+#mtwo {
+  position: absolute;
+  bottom: 3rem;
+  right: 11rem;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 0 1rem 0 1rem;
+  margin: 0;
+}
+
+#iinfoone, #iinfotwo {
+  position: absolute;
+  width: 30%;
+  bottom: 7rem;
+  right: 10rem;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#india {
+  position: relative;
+}
+
+#icredit {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+#ilearn {
+  position: absolute;
+  bottom: 8rem;
+  left: 1rem;
+  color: #fff;
+}
+
+#ione {
+  position: absolute;
+  bottom: 20rem;
+  left: 15rem;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 0 1rem 0 1rem;
+  margin: 0;
+}
+
+#itwo {
+  position: absolute;
+  bottom: 20rem;
+  left: 19rem;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 0 1rem 0 1rem;
+  margin: 0;
+}
+
+footer {
+  text-align: center;
+  font-size: 75%;
+  padding: 1rem;
+}
+
+a:link {
+  color: #87D9FF;
+}
+
+a:visited {
+  color: #0095FF;
+}
+
+a:hover {
+  color: #fff;
+}
+
+#countryquiz {
+  background-color: #fff;
+  color: #000;
+  padding: 2rem;
+  margin: 0;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+    "qone qthree qtwo"
+    "qfive qfour qtwo"
+    ". choices ."
+}
+
+#qone {
+  grid-area: qone;
+}
+
+#qtwo {
+  grid-area: qtwo;
+}
+
+#qthree {
+  grid-area: qthree;
+}
+
+#qfour {
+  grid-area: qfour;
+  padding-top: 3rem;
+  padding-right: 1rem;
+}
+
+#qfive {
+  grid-area: qfive;
+  padding-top: 3rem;
+}
+
+#choices {
+  grid-area: choices;
+  margin: auto;
+}
+
+#results {
+  font-size: 80%;
+}
+
+.container {
+  position: relative;
+}
+
+#results {
+  color: #d60400;
+}
+
+#aone {
+  position: absolute;
+  top: 11.5rem;
+  left: 2rem;
+}
+
+#atwo {
+  position: absolute;
+  bottom: 7rem;
+  right: 15.75rem;
+}
+
+#athree {
+  position: absolute;
+  top: 12rem;
+  left: 30.25rem;
+}
+
+#afour {
+  position: absolute;
+  bottom: 9.5rem;
+  left: 30.25rem;
+}
+
+#afive {
+  position: absolute;
+  bottom: 4rem;
+  left: 2rem;
+}
